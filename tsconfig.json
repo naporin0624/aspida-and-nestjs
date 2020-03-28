@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "declaration": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "target": "es2017",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "baseUrl": ".",
+    "jsx": "react",
+    "esModuleInterop": true,
+    "strict": true,
+    "allowSyntheticDefaultImports": true,
+    "noImplicitAny": true,
+    "isolatedModules": true,
+    "paths": {
+      "@/*": ["views/*"],
+      "apis": ["apis/*"]
+    }
+  },
+  "include": ["server", "views", "./webpack.config.ts", "apis", "test"],
+  "exclude": ["node_modules", "dist"]
+}
