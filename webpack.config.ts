@@ -3,7 +3,11 @@ import { join } from "path";
 import HtmlWebpackPlugin from "html-webpack-plugin";
 const mode = process.env.NODE_ENV === "development" ? "development" : ("production" as const);
 const config: Configuration = {
-  entry: ["./views/App.tsx", "babel-polyfill", ...(mode === "development" ? ["webpack-hot-middleware/client"] : [])],
+  entry: [
+    "./views/App.tsx",
+    "babel-polyfill",
+    ...(mode === "development" ? ["webpack-hot-middleware/client?reload=true&timeout=1000"] : []),
+  ],
   mode,
   resolve: {
     alias: {

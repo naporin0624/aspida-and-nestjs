@@ -6021,10 +6021,10 @@ neo-async@^2.5.0, neo-async@^2.6.1:
   resolved "https://registry.yarnpkg.com/neo-async/-/neo-async-2.6.1.tgz#ac27ada66167fa8849a6addd837f6b189ad2081c"
   integrity sha512-iyam8fBuCUpWeKPGpaNMetEocMt364qkCsfL9JuhjXX6dRnguRVOfk2GZaDpPjcOKiiXCPINZC1GczQ7iTq3Zw==
 
-nest-spa-serve@^1.0.7:
-  version "1.0.7"
-  resolved "https://registry.yarnpkg.com/nest-spa-serve/-/nest-spa-serve-1.0.7.tgz#636d7bbbca9ef281c9d72be155ce7224f244be9b"
-  integrity sha512-IwVEdLAVeXCJUZOWivFcVGYWvaPYCLZ2BkXtObY9+4jITuJumIfS2m3AN1WAqya8NvohAogyfVKDN14dh9NgNA==
+nest-spa-serve@latest:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/nest-spa-serve/-/nest-spa-serve-1.1.0.tgz#daa8ec0627c818586491745fa1fa5b378197e08d"
+  integrity sha512-SMJGAOFWpLgMii+G2YP/RORPOQFT3vOU/icBYU9PWF9cMr3RGTnmssdqEFWTUGp3DOf7g9A9VF4Uw79WyPsX7Q==
   dependencies:
     "@nestjs/common" "^7.0.6"
     "@nestjs/core" "^7.0.6"
@@ -6033,6 +6033,7 @@ nest-spa-serve@^1.0.7:
     typescript "^3.8.3"
     webpack "^4.42.1"
     webpack-dev-middleware "^3.7.2"
+    webpack-hot-middleware "^2.25.0"
 
 next-tick@1:
   version "1.1.0"

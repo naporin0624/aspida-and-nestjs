@@ -20,6 +20,8 @@ export function UserWelcomeIndex() {
 
   return (
     <div>
+      <h1>Hello aspida and NestJS Environment</h1>
+      <h2>Sample Code</h2>
       <label>
         {user.id}
         <p>{user.name}</p>

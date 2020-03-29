@@ -38,7 +38,7 @@
     "babel-polyfill": "^6.26.0",
     "eslint-plugin-react-hooks": "^3.0.0",
     "html-webpack-plugin": "^4.0.2",
-    "nest-spa-serve": "^1.0.7",
+    "nest-spa-serve": "latest",
     "openapi2aspida": "^0.4.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
