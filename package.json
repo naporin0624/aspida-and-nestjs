@@ -11,7 +11,7 @@
     "build:views": "webpack --config webpack.config.ts",
     "build": "npm-run-all -p build:server build:views",
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
-    "start": "nest start",
+    "start": "cd dist && node server/main",
     "start:dev": "NODE_ENV=development nest start --watch",
     "start:debug": "nest start --debug --watch",
     "start:prod": "node dist/main",
