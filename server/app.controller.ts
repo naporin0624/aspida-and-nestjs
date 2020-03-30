@@ -1,6 +1,6 @@
-import { Controller, Get, Post, Body, Query } from "@nestjs/common";
+import { Controller, Get, Post, Body } from "@nestjs/common";
 import { AppService } from "./app.service";
-import { ApiTags, ApiCreatedResponse, ApiBody, getSchemaPath } from "@nestjs/swagger";
+import { ApiTags, ApiCreatedResponse, ApiBody } from "@nestjs/swagger";
 import { User, CreateUserDto } from "./entities/user.entity";
 
 @ApiTags("AppController")
